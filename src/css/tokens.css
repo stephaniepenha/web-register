@@ -1,0 +1,47 @@
+:root {
+  /* spacings */
+  --spacing-xxxs: 4px;
+  --spacing-xxs: 8px;
+  --spacing-xs: 16px;
+  --spacing-sm: 24px;
+  --spacing-md: 32px;
+  --spacing-lg: 40px;
+  --spacing-xl: 48px;
+  --spacing-xxl: 56px;
+  --spacing-xxxl: 64px;
+
+  /* outside shadow */
+  --shadow-1: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-2: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-3: 0 16px 32px rgba(0, 0, 0, 0.2);
+  --shadow-4: 0 32px 64px rgba(0, 0, 0, 0.2);
+
+  /* sizes */
+  --size-header-height: 70px;
+  --size-header-compact-height: 45px;
+  --size-container-width: 860px;
+  --size-field-height: 40px;
+  --size-button-height: 60px;
+
+  /* depths */
+  --depth-base: 1;
+  --depth-header: 2;
+
+  /* fonts */
+  --font-family: 'Roboto', sans-serif;
+
+  /* border radius */
+  --border-radius-xxs: 3px;
+  --border-radius-xs: 5px;
+  --border-radius-sm: 8px;
+  --border-radius-round: 50%;
+
+}
+
+#root {
+  min-width: 100%;
+  padding:0;
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}

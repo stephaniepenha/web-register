@@ -1,0 +1,12 @@
+@import '../../css/tokens.css';
+
+.content {
+  padding-top: var(--spacing-xxs);
+  min-height: 600px;
+}
+
+@media (min-width: 476px) {
+  .content {
+    padding-top: var(--spacing-md);
+  }
+}
